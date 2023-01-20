@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC_task_calc(switch)", "Sim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC_task_while", "SC_task_while\SC_task_while.csproj", "{EEDFC79A-C107-4BE0-ADAE-F5326E8BD0FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC_task_cycles", "SC_task_cycles\SC_task_cycles.csproj", "{B64B63F6-9B69-48E0-8183-C0BFE7BE4778}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC_task_cycles(for)", "SC_task_cycles(for)\SC_task_cycles(for).csproj", "{95A5CBF5-F6F1-4760-9E87-550A8F957370}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{EEDFC79A-C107-4BE0-ADAE-F5326E8BD0FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEDFC79A-C107-4BE0-ADAE-F5326E8BD0FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEDFC79A-C107-4BE0-ADAE-F5326E8BD0FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B64B63F6-9B69-48E0-8183-C0BFE7BE4778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B64B63F6-9B69-48E0-8183-C0BFE7BE4778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B64B63F6-9B69-48E0-8183-C0BFE7BE4778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B64B63F6-9B69-48E0-8183-C0BFE7BE4778}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95A5CBF5-F6F1-4760-9E87-550A8F957370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95A5CBF5-F6F1-4760-9E87-550A8F957370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95A5CBF5-F6F1-4760-9E87-550A8F957370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95A5CBF5-F6F1-4760-9E87-550A8F957370}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
