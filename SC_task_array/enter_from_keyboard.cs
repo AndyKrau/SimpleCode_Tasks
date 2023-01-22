@@ -32,16 +32,13 @@ namespace SC_task_array
             Console.WriteLine();
 
             // Вывод масива в обратном порядке
+            // не стал использовать Array.Reverse() т.к. ещё не проходил;
             Console.WriteLine("Массив в обратном порядке:");
-            Array.Reverse(arr);
-            foreach (var item in arr)
+            for (int i = arr.Length - 1; i >= 0; i--)
             {
-                Console.Write($"{item} ");
+                Console.Write($"{arr[i]} ");
             }
-            //Возвращаю нормальный порядок массиву 
-            Array.Reverse(arr);
             Console.WriteLine();
-
 
             //Сумма четных чисел в массиве
             Console.WriteLine("Сумма четных чисел в массиве:");
