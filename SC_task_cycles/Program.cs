@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Text;
+
 
 namespace SC_task_cycles
 {
@@ -9,25 +11,25 @@ namespace SC_task_cycles
             int countFirst = 1;
             string symbol = "#";
             string str = "";
+            StringBuilder str1 = new StringBuilder();
 
-            Console.WriteLine();
+
             while (countFirst <= 10)
             {
                 countFirst++;
-                str = str + symbol;
-                Console.WriteLine(str);
-            }
-            Console.WriteLine();
-            Console.WriteLine();
-            while (countFirst > 1)
-            {
-                Console.WriteLine(str);
-                str = str.Substring(0, str.Length - 1);
-                countFirst--;
+                str1.Append(symbol);
+                Console.WriteLine(str1);
             }
             Console.WriteLine();
 
-            int countSecond = 1;
+            while (countFirst > 1)
+            {
+                Console.WriteLine(str1);
+                str1 = str1.Remove(str1.Length - 1, 1);
+                countFirst--;
+            }
+
+            /*int countSecond = 1;
             string str2 = "          ";
 
             while (countSecond <= 10)
@@ -45,7 +47,7 @@ namespace SC_task_cycles
                 countSecond--;
                 str2 = str2.Remove(str2.Length-1 , 1);
                 str2 = str2.Insert(0, " ");
-            }
+            }*/
             Console.ReadKey();
         }
     }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace SimpleCode
 {
@@ -6,7 +7,7 @@ namespace SimpleCode
     {
         static void Main(string[] args)
         {
-            
+           
         }
     }
 }

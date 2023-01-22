@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC_task_cycles", "SC_task_c
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC_task_cycles(for)", "SC_task_cycles(for)\SC_task_cycles(for).csproj", "{95A5CBF5-F6F1-4760-9E87-550A8F957370}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC_task_ternary_op", "SC_task_ ternary_op\SC_task_ternary_op.csproj", "{5D292341-40CC-4F74-9BDA-A3087675763B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC_task_array", "SC_task_array\SC_task_array.csproj", "{7B884464-8258-4C82-BB77-50A9BB8C61D6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{95A5CBF5-F6F1-4760-9E87-550A8F957370}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95A5CBF5-F6F1-4760-9E87-550A8F957370}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95A5CBF5-F6F1-4760-9E87-550A8F957370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D292341-40CC-4F74-9BDA-A3087675763B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D292341-40CC-4F74-9BDA-A3087675763B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D292341-40CC-4F74-9BDA-A3087675763B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D292341-40CC-4F74-9BDA-A3087675763B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B884464-8258-4C82-BB77-50A9BB8C61D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B884464-8258-4C82-BB77-50A9BB8C61D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B884464-8258-4C82-BB77-50A9BB8C61D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B884464-8258-4C82-BB77-50A9BB8C61D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
