@@ -46,7 +46,7 @@ namespace SC_task_array
             foreach (var item in arr)
             {
                 if (item % 2 == 0)
-                    summEven = summEven + item;
+                    summEven += item;
                 else 
                     continue;
             }
