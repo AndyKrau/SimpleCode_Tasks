@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 //Methods
 //Вывод нужного количества символов в консоль
@@ -16,7 +17,7 @@ namespace SC_task_methods_output_simbol
             }
             return result;
         }
-
+        
         static void Main(string[] args)
         {
             Console.Write("Введите символ который нужно повторить:");
@@ -25,9 +26,12 @@ namespace SC_task_methods_output_simbol
             int outputQuantity = int.Parse(Console.ReadLine());
 
             string str = OutputSimbol(character, outputQuantity);
-            
+            string a = string.Copy(str);
             Console.WriteLine(str);
+            Console.WriteLine(a);
             Console.ReadKey();
+
+            
         }
     }
 }
