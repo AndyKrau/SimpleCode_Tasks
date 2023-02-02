@@ -30,13 +30,18 @@ namespace SC_task_recursion1
                 return sum;
         }//реализовать сложение всех элементов массива с помощью рекурсии
 
-        static int SumNumbers(int number, int index = 10)//найти сумму цифр числа с помощью рекурсии
+        /// <summary>
+        /// Поиск суммы цифр числа с помощью рекурсии
+        /// </summary>
+        /// <param name="number">любое целое положительное число</param>
+        /// <returns></returns>
+        static int SumNumbers(int number)//найти сумму цифр числа с помощью рекурсии
         {
-            if (number % index == 0 )
+            if (number == 0 )
                 return 0;
 
-            int x = number % index;
-            int result = number / index;
+            int x = number % 10;
+            int result = number / 10;
 
             return x + SumNumbers(result);
         }
@@ -44,7 +49,7 @@ namespace SC_task_recursion1
         static void Main(string[] args)
         {
             int[] arr = { 5, 3, 2 };
-            int number = 567;
+            int number = -1204;
 
             Console.Write("Массив выведенный с помощью рекурсии: ");
             OutputArray(arr);

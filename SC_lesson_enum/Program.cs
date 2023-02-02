@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-
-// Песочница для лекций
-
-namespace SimpleCode
+﻿namespace SC_lesson_enum
 {
     internal class Program
     {
         enum Weekdays : byte
         {
-            Monday = 1 ,
+            Monday = 1,
             Thuesday,
             Wednesday,
             Thursday,
@@ -17,16 +12,20 @@ namespace SimpleCode
             Saturday,
             Sunday
         }
+        /// <summary>
+        /// Метод позволяет зациклить выбор дня недели из Enum и отловить ошибки если ввод был некоректным
+        /// </summary>
         static void Loop()
         {
             try
             {
-                Console.Write("enter day: ");
+                Console.Write("Выберите день недели (введите имя или порядковый номер дня): ");
+
                 string str = Console.ReadLine();
 
-                Weekdays arr2 = (Weekdays)Enum.Parse(typeof(Weekdays), str, ignoreCase: true);
+                Weekdays weekdays = (Weekdays)Enum.Parse(typeof(Weekdays), str, ignoreCase: true);
 
-                switch (arr2)
+                switch (weekdays)
                 {
                     case Weekdays.Monday:
                         Console.WriteLine("вы выбрали Monday");
@@ -56,18 +55,28 @@ namespace SimpleCode
             }
             catch (Exception e)
             {
-
                 Console.WriteLine($"Error: {e.Message}");
             }
-            
+        }
+
+        /// <summary>
+        /// Выводит значения Enum в консоль
+        /// </summary>
+        static void Print()
+        {
+            var weekdays = Enum.GetNames(typeof(Weekdays));
+
+            Console.WriteLine("  Enum:");
+
+            foreach (var item in weekdays)
+                Console.WriteLine(item);
         }
         static void Main(string[] args)
         {
+            Print();
+
             while (true)
-            {
                 Loop();
-            }
-           
         }
     }
 }
