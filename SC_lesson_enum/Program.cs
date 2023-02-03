@@ -21,9 +21,9 @@
             {
                 Console.Write("Выберите день недели (введите имя или порядковый номер дня): ");
 
-                string str = Console.ReadLine();
+                string str = Console.ReadLine()!;
 
-                Weekdays weekdays = (Weekdays)Enum.Parse(typeof(Weekdays), str, ignoreCase: true);
+                Weekdays weekdays = (Weekdays)Enum.Parse(typeof(Weekdays), str ?? "", ignoreCase: true);
 
                 switch (weekdays)
                 {
