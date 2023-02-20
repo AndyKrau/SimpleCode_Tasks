@@ -66,11 +66,13 @@ namespace SC_lesson_abstract_class
             MashineGun mashineGun = new MashineGun();
 
             Weapon[] weapons= {bow, gun, mashineGun};
+            Weapon[] weapons1 = {new Bow(),new Gun(), new MashineGun() };
 
-            foreach (Weapon item in weapons)
+
+            foreach (Weapon item in weapons1)
             {
                 item.GetInfo();
-                player.Fire(item);
+                //player.Fire(item);
             }
 
             Console.ReadKey();
