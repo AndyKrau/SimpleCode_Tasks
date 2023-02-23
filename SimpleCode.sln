@@ -57,9 +57,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SC_lesson_delegate", "SC_le
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lesson_collections_list", "lesson_collections_list\lesson_collections_list.csproj", "{02A53784-69C8-4E47-B429-CD1373FDB15F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson_collections_dictionary", "lesson_collections_dictionary\lesson_collections_dictionary.csproj", "{37AD625E-9D67-4D86-92D4-227C93F5AF27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lesson_collections_dictionary", "lesson_collections_dictionary\lesson_collections_dictionary.csproj", "{37AD625E-9D67-4D86-92D4-227C93F5AF27}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson_collections_hashset", "lesson_collections_hashset\lesson_collections_hashset.csproj", "{E41E69D9-5513-49BD-84BD-59C452483E23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lesson_collections_hashset", "lesson_collections_hashset\lesson_collections_hashset.csproj", "{E41E69D9-5513-49BD-84BD-59C452483E23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lesson_collections_tuple", "lesson_collections_tuple\lesson_collections_tuple.csproj", "{0C41F742-4E61-4065-8AAA-A25CB6B0853C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson_LINQ", "lesson_LINQ\lesson_LINQ.csproj", "{82DEF64E-6A40-4942-8463-3EB8662C2950}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +187,14 @@ Global
 		{E41E69D9-5513-49BD-84BD-59C452483E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E41E69D9-5513-49BD-84BD-59C452483E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E41E69D9-5513-49BD-84BD-59C452483E23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C41F742-4E61-4065-8AAA-A25CB6B0853C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C41F742-4E61-4065-8AAA-A25CB6B0853C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C41F742-4E61-4065-8AAA-A25CB6B0853C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C41F742-4E61-4065-8AAA-A25CB6B0853C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82DEF64E-6A40-4942-8463-3EB8662C2950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82DEF64E-6A40-4942-8463-3EB8662C2950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82DEF64E-6A40-4942-8463-3EB8662C2950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82DEF64E-6A40-4942-8463-3EB8662C2950}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
