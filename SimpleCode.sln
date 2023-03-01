@@ -63,7 +63,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lesson_collections_hashset"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lesson_collections_tuple", "lesson_collections_tuple\lesson_collections_tuple.csproj", "{0C41F742-4E61-4065-8AAA-A25CB6B0853C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson_LINQ", "lesson_LINQ\lesson_LINQ.csproj", "{82DEF64E-6A40-4942-8463-3EB8662C2950}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lesson_LINQ", "lesson_LINQ\lesson_LINQ.csproj", "{82DEF64E-6A40-4942-8463-3EB8662C2950}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lesson_SQL1", "lesson_SQL1\lesson_SQL1.csproj", "{9449EFCA-E385-4F3C-A069-DB459EBD6402}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SC_lesson_threats", "SC_lesson_threats\SC_lesson_threats.csproj", "{E0892E2D-A633-497E-B2BD-BE2D7B3ABC07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -195,6 +199,14 @@ Global
 		{82DEF64E-6A40-4942-8463-3EB8662C2950}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82DEF64E-6A40-4942-8463-3EB8662C2950}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82DEF64E-6A40-4942-8463-3EB8662C2950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9449EFCA-E385-4F3C-A069-DB459EBD6402}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9449EFCA-E385-4F3C-A069-DB459EBD6402}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9449EFCA-E385-4F3C-A069-DB459EBD6402}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9449EFCA-E385-4F3C-A069-DB459EBD6402}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0892E2D-A633-497E-B2BD-BE2D7B3ABC07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0892E2D-A633-497E-B2BD-BE2D7B3ABC07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0892E2D-A633-497E-B2BD-BE2D7B3ABC07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0892E2D-A633-497E-B2BD-BE2D7B3ABC07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
