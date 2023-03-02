@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using System.IO;
 using System.Text;
 using System.Threading;
@@ -36,13 +37,13 @@ namespace SC_lesson_threats
             #region async/await
             // Запись в файл текста введенного из консоли
 
-            Console.Write("Введите текст для записи в файл: ");
+            //Console.Write("Введите текст для записи в файл: ");
 
-            string str = Console.ReadLine();
+            //string str = Console.ReadLine();
 
-            WriteTextInFileAsync("D://testAsync.txt", str);
+            //WriteTextInFileAsync("D://testAsync.txt", str);
 
-            DoWork2();
+            //DoWork2();
 
             #endregion
 
@@ -87,7 +88,6 @@ namespace SC_lesson_threats
 
             return result;
         }
-
 
         static bool FileWrite(string path)
         {
@@ -184,5 +184,23 @@ namespace SC_lesson_threats
             Console.WriteLine("result " + j);
             Console.WriteLine("End: DoWork 2");
         }
+        static void DoWork3( object arg)
+        {
+            int j = 0;
+            Console.WriteLine("Start: DoWork 2");
+            for (int i = 0; i < (int)arg; i++)
+            {
+                j++;
+                Thread.Sleep(10);
+            }
+            Console.WriteLine("result " + j);
+            Console.WriteLine("End: DoWork 2");
+        }
+
+
+        
     }
+
+
+    
 }
